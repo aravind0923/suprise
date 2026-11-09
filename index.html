@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#3b1e2b">
+<title>For Radhi ♡ — A Birthday Surprise</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Sacramento&display=swap');
+:root{--wine:#54283b;--rose:#c66c83;--blush:#f6dce1;--cream:#fff8f0;--ink:#402936;--gold:#d7ad75}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f9e9e8;color:var(--ink);font-family:'DM Sans',sans-serif;min-height:100vh}button{font:inherit;cursor:pointer}.screen{min-height:100svh;display:none;position:relative;overflow:hidden;padding:28px 18px}.screen.active{display:flex;align-items:center;justify-content:center;animation:fade .65s ease}@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}.grain:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.16;background-image:radial-gradient(#9e697b 0.6px,transparent .6px);background-size:9px 9px}.panel{position:relative;z-index:1;width:min(100%,490px);text-align:center}.eyebrow{letter-spacing:.22em;text-transform:uppercase;font-size:10px;font-weight:700;color:#b36a7c}.script{font-family:Sacramento,cursive}.serif{font-family:'Playfair Display',serif}.muted{color:#977986}.tiny{font-size:12px;line-height:1.7}.primary{border:0;border-radius:999px;background:var(--wine);color:white;padding:13px 24px;box-shadow:0 8px 22px #54283b2c;transition:.2s}.primary:hover{transform:translateY(-2px);background:#71384f}.soft{border:1px solid #e8c6ce;background:#fff9f7;color:var(--wine);border-radius:999px;padding:11px 18px}.float{position:absolute;opacity:.5;animation:drift 7s ease-in-out infinite}.float.one{top:8%;left:8%;font-size:25px}.float.two{bottom:10%;right:9%;font-size:30px;animation-delay:1.5s}@keyframes drift{50%{transform:translateY(-18px) rotate(9deg)}}
+/* passcode */#lock{background:radial-gradient(circle at 50% 25%,#fff9f1,#f3d8df 75%)}.lock-card{background:#fffaf6eF;border:1px solid #fff;border-radius:28px;padding:30px 25px;box-shadow:0 20px 60px #78475a20}.avatar{width:116px;height:116px;object-fit:cover;border-radius:50%;border:5px solid white;box-shadow:0 8px 25px #6c33452b}.dots{display:flex;justify-content:center;gap:12px;margin:18px}.dot{width:11px;height:11px;border:1px solid #c78b9c;border-radius:50%}.dot.filled{background:#a84f6b}.keypad{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;max-width:250px;margin:20px auto}.key{height:52px;border:0;border-radius:15px;background:#f7e7e8;color:#65364a;font-size:20px;font-weight:600}.key:active{transform:scale(.95)}#error{height:18px;color:#b94b63;font-size:12px}
+/* gifts */#gifts{background:#f8e9e5}.gift-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:28px 0}.gift{border:1px solid #f0d4d5;background:#fffaf5;border-radius:20px;padding:17px 8px 14px;box-shadow:0 9px 24px #67394b12;transition:.25s}.gift:hover{transform:translateY(-7px) rotate(-2deg)}.gift .emoji{font-size:42px;display:block;margin-bottom:9px}.gift b{font-size:11px;color:#875267}.gift-note{font-size:12px;color:#9b7784}
+/* card */#birthday{background:#4a2436;color:#fff5ed}.camera-card{background:#fff8ef;color:#4d2a39;border-radius:8px;padding:18px 18px 22px;box-shadow:0 22px 55px #1d0c17aa;transform:rotate(-1deg);max-width:360px;margin:20px auto}.camera-top{display:flex;justify-content:space-between;font-size:10px;letter-spacing:.15em;color:#9b6b76}.camera-card img{width:100%;height:300px;object-fit:cover;margin:15px 0 10px;border:7px solid white;box-shadow:0 3px 12px #4b26331b}.camera-card .caption{font-family:Sacramento,cursive;font-size:30px}.cake{font-size:100px;display:block;filter:drop-shadow(0 10px 10px #1a0c1740);animation:bob 2s ease-in-out infinite}@keyframes bob{50%{transform:translateY(-8px)}}
+/* gallery */#gallery{background:#f4e1df}.gallery-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px;margin:23px auto;max-width:440px}.polaroid{background:#fffdf9;padding:8px 8px 23px;box-shadow:0 8px 20px #5830421b;transform:rotate(var(--r));transition:.25s}.polaroid:hover{transform:rotate(0) scale(1.035);z-index:2}.polaroid img{width:100%;height:180px;object-fit:cover;display:block}.polaroid:nth-child(3n) img{height:210px}.polaroid span{font-family:Sacramento,cursive;font-size:22px;display:block;padding-top:6px}.gallery-grid .polaroid:nth-child(4n+1){--r:-2deg}.gallery-grid .polaroid:nth-child(4n+2){--r:2deg}.gallery-grid .polaroid:nth-child(4n+3){--r:1deg}.gallery-grid .polaroid:nth-child(4n){--r:-1.5deg}
+/* letter */#letter{background:#e9d4ca}.letter-paper{max-width:460px;margin:16px auto;background:#fff9ed;padding:32px 27px;text-align:left;box-shadow:0 15px 40px #57344426;position:relative}.letter-paper:before{content:"";position:absolute;inset:10px;border:1px solid #e9d6c7;pointer-events:none}.letter-paper h2{font:italic 28px 'Playfair Display',serif;margin:0 0 17px}.letter-paper p{font:14px/1.85 'Playfair Display',serif;margin:0 0 13px}.signature{font:32px Sacramento,cursive;color:#a44e6a;text-align:right;margin-top:14px}
+/* final */#final{background:radial-gradient(circle at 50% 35%,#784458,#321a29 80%);color:#fff6f0}.final-card{max-width:460px;padding:35px 25px;border:1px solid #d9a8b16b;border-radius:26px;background:#fff8f00c;backdrop-filter:blur(4px)}.final-card h1{font:italic clamp(31px,8vw,48px)/1.2 'Playfair Display',serif;color:#ffe0e5}.final-card h2{font:clamp(24px,6vw,34px) Sacramento,cursive;color:#fff}.final-card p{line-height:1.9;color:#f6dfe4}.final-photo{width:115px;height:115px;border-radius:50%;object-fit:cover;border:4px solid #f7d8dc;margin:0 auto 18px}.music{position:fixed;right:15px;top:15px;z-index:10;border:1px solid #ffffff80;background:#fffaf0e8;color:#63364b;border-radius:30px;padding:9px 13px;font-size:12px;box-shadow:0 4px 15px #4d26351a}.music.dark{background:#fffaf0;color:#63364b}.navrow{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:18px}.heart{position:fixed;pointer-events:none;z-index:20;animation:rise 2.4s ease-out forwards;font-size:20px}@keyframes rise{to{transform:translateY(-110vh) rotate(35deg);opacity:0}}
+/* Continuous falling hearts and flowers on every page except the secret PIN screen */
+#fallingDecor{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:5;display:none}
+#fallingDecor.active{display:block}
+.falling-piece{position:absolute;top:-52px;left:var(--left);font-size:var(--size);line-height:1;opacity:var(--opacity);animation:fall-down var(--duration) linear forwards;will-change:transform,opacity;filter:drop-shadow(0 2px 3px #54283b18)}
+@keyframes fall-down{0%{transform:translate3d(0,-6vh,0) rotate(0deg);opacity:0}8%{opacity:var(--opacity)}50%{transform:translate3d(var(--sway),55vh,0) rotate(180deg)}100%{transform:translate3d(calc(var(--sway) * -0.45),115vh,0) rotate(360deg);opacity:0}}
+@media(prefers-reduced-motion:reduce){.falling-piece{animation-duration:18s}}.footer-note{font-size:10px;color:#a47e8b;margin-top:20px}
+@media(min-width:700px){.screen{padding:40px}.gallery-grid{grid-template-columns:repeat(3,1fr);max-width:620px}.polaroid img{height:190px}.polaroid:nth-child(3n) img{height:215px}}
+</style></head>
+<body>
+<div id="fallingDecor" aria-hidden="true"></div>
+<audio id="birthdayMusic" src="assets/dheema-instrumental.mp3" preload="auto" loop></audio>
+<button class="music" id="musicBtn" aria-label="Toggle birthday music" hidden>♫ Music: off</button>
+<section class="screen active grain" id="lock"><span class="float one">♡</span><span class="float two">✿</span><div class="panel lock-card"><div class="eyebrow">a little surprise awaits</div><img class="avatar" src="assets/photo-01.jpg" alt="Pravitha smiling among pink flowers"><h1 class="serif" style="font-size:31px;margin:16px 0 4px">For you, Radhi <span style="color:#c46b83">♡</span></h1><p class="muted tiny">Someone made a little something just for you.</p><p class="eyebrow" style="margin-top:22px">Enter the secret code</p><div class="dots" id="dots"><i class="dot"></i><i class="dot"></i><i class="dot"></i><i class="dot"></i></div><div class="keypad" id="keypad"><button class="key">1</button><button class="key">2</button><button class="key">3</button><button class="key">4</button><button class="key">5</button><button class="key">6</button><button class="key">7</button><button class="key">8</button><button class="key">9</button><button class="key" data-action="clear">⌫</button><button class="key">0</button><button class="key" data-action="enter">↵</button></div><div id="error"></div><div class="footer-note">made with care by Aravind ✧</div></div></section>
+<section class="screen grain" id="gifts"><span class="float one">♡</span><span class="float two">✿</span><div class="panel"><div class="eyebrow">23 · 01 · 2027</div><h1 class="serif" style="font-size:clamp(32px,8vw,44px);margin:12px 0">Happy Birthday,<br><i>Pravitha!</i></h1><p class="muted">A few little surprises, picked just for you.</p><p class="gift-note">Tap each gift to open it ✨</p><div class="gift-grid"><button class="gift" data-go="birthday"><span class="emoji">🎁</span><b>A LITTLE WISH</b></button><button class="gift" data-go="gallery"><span class="emoji">📸</span><b>YOUR MEMORIES</b></button><button class="gift" data-go="letter"><span class="emoji">💌</span><b>A NOTE FOR YOU</b></button></div><button class="primary" data-go="birthday">Let's celebrate ♡</button><p class="footer-note">three little gifts for my favourite Radhi</p></div></section>
+<section class="screen" id="birthday"><div class="panel"><div class="eyebrow" style="color:#e9b8c5">a birthday wish from Aravind</div><div class="camera-card"><div class="camera-top"><span>✧ A MOMENT TO KEEP</span><span>NO. 001</span></div><img src="assets/photo-01.jpg" alt="Radhi among pink blossoms"><div class="caption">A day as lovely as you</div><div class="tiny" style="color:#977986">Wishing you a year full of little joys.</div></div><span class="cake">🎂</span><h2 class="serif" style="font-size:27px;margin:8px 0">Make a wish, Radhi!</h2><p class="tiny" style="color:#e6cbd3">Close your eyes, make a wish and tap the candle.</p><button class="primary" id="wishBtn" style="background:#f3dce0;color:#54283b">🕯️ Make a wish</button><div class="navrow"><button class="soft" data-go="gifts">Back</button><button class="soft" data-go="gallery">See your memories →</button></div></div></section>
+<section class="screen grain" id="gallery"><div class="panel" style="max-width:720px"><div class="eyebrow">little moments, lovely you</div><h1 class="serif" style="font-size:36px;margin:8px 0">A gallery of <i>you</i> ♡</h1><p class="muted tiny">Every picture has its own little story.</p><div class="gallery-grid">
+<div class="polaroid"><img src="assets/photo-01.jpg" alt="Radhi by pink flowers"><span>Keep blooming 🌸</span></div><div class="polaroid"><img src="assets/photo-02.jpg" alt="Radhi smiling in a garden"><span>That lovely smile</span></div><div class="polaroid"><img src="assets/photo-03.jpg" alt="Radhi in a traditional outfit"><span>Simply beautiful</span></div><div class="polaroid"><img src="assets/photo-04.jpg" alt="Radhi in a colourful saree"><span>Little moments ♡</span></div><div class="polaroid"><img src="assets/photo-05.jpg" alt="Radhi by the sea"><span>Collecting sunshine</span></div><div class="polaroid"><img src="assets/photo-06.jpg" alt="Radhi in a forest"><span>Stay adventurous</span></div><div class="polaroid"><img src="assets/photo-07.jpg" alt="Radhi in pink"><span>Always be you</span></div><div class="polaroid"><img src="assets/photo-08.png" alt="A favourite memory"><span>One for the memories</span></div><div class="polaroid"><img src="assets/photo-09.png" alt="A favourite memory"><span>Keep smiling, Radhi</span></div></div><div class="navrow"><button class="soft" data-go="birthday">← Birthday wish</button><button class="primary" data-go="letter">One last thing… 💌</button></div></div></section>
+<section class="screen grain" id="letter"><div class="panel"><div class="eyebrow">a little note, from me to you</div><div class="letter-paper"><h2>Dear Radhi ❤️</h2><p>Hey Pravitha!</p><p>First of all, happiest birthday! 🥳</p><p>I don't know how to put everything into words, but I'm really glad to have you in my life. You are one of those people who make ordinary moments a little more special.</p><p>I hope this year brings you everything you've been wishing for. Keep smiling, keep being yourself, and never stop chasing the things that make you happy.</p><p>And one thing: no matter how busy life gets or where we end up, I hope our Bond always stays the same. I'll always be there to pull your leg, irritate you and make you laugh whenever I can. 😂</p><p>Once again, Happy Birthday, Radhi!</p><p>Stay happy, stay crazy and keep smiling. ❤️</p><p>With lots of Love ❤️,</p><div class="signature">Aravind</div></div><button class="primary" data-go="final">Open your final surprise ♡</button></div></section>
+<section class="screen" id="final"><div class="panel final-card"><img class="final-photo" src="assets/photo-02.jpg" alt="Radhi smiling"><div class="eyebrow" style="color:#e9b6c3">to my favourite one ❤️</div><h1>Life gave me many people..</h1><h2>but you're one of my favourite blessings, Radhi! ❤️</h2><p>No matter where life takes us, you'll always have a special place in my memories.</p><div style="font-size:42px;margin:14px">🎂</div><h2 style="font-family:'Playfair Display',serif;font-size:26px">Happy Birthday, Pravithaa</h2><p style="margin-bottom:0">— Aravind</p><div class="navrow"><button class="soft" id="replay">↻ Relive the surprise</button></div></div></section>
+<script>
+const screens=[...document.querySelectorAll('.screen')];
+const fallingDecor=document.getElementById('fallingDecor');
+const fallingSymbols=['💗','💕','💖','♡','🌸','🌷','🌺','✿'];
+let fallingTimer=null;
+function addFallingPiece(){
+  if(!fallingDecor.classList.contains('active'))return;
+  // Keep the animation light even on mobile devices.
+  if(fallingDecor.childElementCount>=24)return;
+  const piece=document.createElement('span');
+  piece.className='falling-piece';
+  piece.textContent=fallingSymbols[Math.floor(Math.random()*fallingSymbols.length)];
+  piece.style.setProperty('--left',Math.random()*100+'vw');
+  piece.style.setProperty('--size',(14+Math.random()*17)+'px');
+  piece.style.setProperty('--duration',(7+Math.random()*7)+'s');
+  piece.style.setProperty('--opacity',(0.42+Math.random()*0.42).toFixed(2));
+  piece.style.setProperty('--sway',(-35+Math.random()*70)+'px');
+  fallingDecor.appendChild(piece);
+  piece.addEventListener('animationend',()=>piece.remove(),{once:true});
+}
+function setFallingDecor(enabled){
+  fallingDecor.classList.toggle('active',enabled);
+  if(fallingTimer){clearInterval(fallingTimer);fallingTimer=null;}
+  if(enabled){
+    // Start immediately, then continuously add new hearts and flowers.
+    for(let i=0;i<9;i++)setTimeout(addFallingPiece,i*180);
+    fallingTimer=setInterval(addFallingPiece,430);
+  }else{fallingDecor.replaceChildren();}
+}
+function go(id){screens.forEach(s=>s.classList.toggle('active',s.id===id));setFallingDecor(id!=='lock');window.scrollTo({top:0,behavior:'smooth'});if(id==='final')confettiHearts()}
+document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));
+let code='';const dots=[...document.querySelectorAll('.dot')];function draw(){dots.forEach((d,i)=>d.classList.toggle('filled',i<code.length))}function enter(){if(code==='2004'){document.getElementById('error').textContent='';go('gifts');code='';draw();startMusic()}else{document.getElementById('error').textContent='Not quite! Try again, Radhi ♡';code='';draw();const c=document.querySelector('.lock-card');c.animate([{transform:'translateX(-5px)'},{transform:'translateX(5px)'},{transform:'translateX(0)'}],{duration:260})}}
+document.getElementById('keypad').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.action==='clear'){code=code.slice(0,-1)}else if(b.dataset.action==='enter'){enter();return}else if(code.length<4){code+=b.textContent.trim()}draw();if(code.length===4)setTimeout(enter,220)});document.addEventListener('keydown',e=>{if(!document.getElementById('lock').classList.contains('active'))return;if(/^\d$/.test(e.key)&&code.length<4){code+=e.key;draw();if(code.length===4)setTimeout(enter,220)}if(e.key==='Backspace'){code=code.slice(0,-1);draw()}if(e.key==='Enter')enter()});
+// User-supplied Dheema instrumental: starts after the correct passcode, loops continuously at 45% volume.
+const birthdayMusic=document.getElementById('birthdayMusic');
+const musicBtn=document.getElementById('musicBtn');
+birthdayMusic.loop=true;
+birthdayMusic.volume=0.45;
+let musicOn=false;
+async function startMusic(){
+  musicBtn.hidden=false;
+  try{
+    await birthdayMusic.play();
+    musicOn=true;
+    musicBtn.textContent='♫ Music: on';
+  }catch(err){
+    musicOn=false;
+    musicBtn.textContent='♫ Tap to play music';
+  }
+}
+function stopMusic(){
+  birthdayMusic.pause();
+  musicOn=false;
+  musicBtn.textContent='♫ Music: off';
+}
+musicBtn.addEventListener('click',()=>{
+  if(musicOn) stopMusic();
+  else startMusic();
+});
+document.getElementById('wishBtn').addEventListener('click',e=>{e.currentTarget.textContent='✨ Your wish is on its way!';e.currentTarget.disabled=true;for(let i=0;i<22;i++)setTimeout(()=>heartAt(Math.random()*innerWidth,innerHeight-20),i*65)});function heartAt(x,y){const h=document.createElement('span');h.className='heart';h.textContent=['♡','💗','✧','🌸'][Math.floor(Math.random()*4)];h.style.left=x+'px';h.style.top=y+'px';document.body.append(h);setTimeout(()=>h.remove(),2500)}function confettiHearts(){for(let i=0;i<20;i++)setTimeout(()=>heartAt(Math.random()*innerWidth,innerHeight-10),i*110)}document.getElementById('replay').addEventListener('click',()=>{document.getElementById('wishBtn').disabled=false;document.getElementById('wishBtn').textContent='🕯️ Make a wish';go('lock')});
+</script></body></html>
